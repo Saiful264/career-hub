@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex justify-around">
-        <a className="font-semibold" href="">CareerHub</a>
+    <div className="flex justify-around items-center py-12 bg-slate-100">
+        <a className="font-bold text-3xl" href="">CareerHub</a>
         <div className="">
-            <a href="">Statistics</a>
-            <a href="">Applied Jobs</a>
-            <a href="">Blog</a>
+            <a className="pl-8 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent font-semibold text-sm" href="">Statistics</a>
+            <a className="pl-8 text-gray-500 font-semibold text-sm" href="">Applied Jobs</a>
+            <a className="pl-8 text-gray-500 font-semibold text-sm" href="">Blog</a>
         </div>
-        {/* <button className="font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-full border-transparent border-2  text-gray-700 hover:bg-cyan-400 bg-cyan-200">Star Applying</button> */}
-        <button className="text-xl text-white">Star Applying</button>
+        <button className="btn-primary">Star Applying</button>
     </div>
   );
 };

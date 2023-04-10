@@ -4,9 +4,11 @@
 
 
 .btn-primary{
-    @apply  font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-full border-transparent border-2  text-gray-700 hover:bg-cyan-400 bg-cyan-200
+    @apply  font-medium transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 text-lg rounded-md border-transparent  text-white hover:bg-cyan-400 bg-gradient-to-r from-blue-400 to-violet-600 
   }
-
+.btn-secoundry{
+  @apply px-5 py-2 rounded-md border-2 border-sky-500 text-base font-extrabold bg-gradient-to-r from-blue-400 to-violet-600  bg-clip-text text-transparent
+}
   .btn-outlined{
     @apply  font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-full  text-gray-700 hover:bg-cyan-400 hover:border-transparent border-2 border-cyan-200
   }
