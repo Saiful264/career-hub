@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://example.com/company_logo.png",
+        "job_title": "Software Engineer",
+        "company_name": "ABC Corporation",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "100000-120000",
+        "job_description": "We are seeking an experienced software engineer to join our team.",
+        "job_responsibility": "Design and develop software solutions to meet customer needs. Collaborate with cross-functional teams to identify and solve complex problems.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development.",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "hr@abccorporation.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://example.com/company_logo.png",
+        "job_title": "Marketing Manager",
+        "company_name": "XYZ Corporation",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "80000-100000",
+        "job_description": "We are seeking a Marketing Manager to lead our marketing initiatives.",
+        "job_responsibility": "Develop and implement marketing strategies to increase brand awareness and drive sales. Collaborate with sales and product teams to ensure consistency in messaging.",
+        "educational_requirements": "Bachelor's or Master's degree in Marketing or related field.",
+        "experiences": "7+ years of experience in marketing.",
+        "contact_information": {
+            "phone": "555-123-4567",
+            "email": "hr@xyzcorporation.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://example.com/company_logo.png",
+        "job_title": "Graphic Designer",
+        "company_name": "LMN Corporation",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Parttime",
+        "salary": "40000-50000",
+        "job_description": "We are seeking a talented Graphic Designer to join our team.",
+        "job_responsibility": "Design and produce visual content for print and digital media. Collaborate with marketing and product teams to ensure brand consistency.",
+        "educational_requirements": "Bachelor's or Master's degree in Graphic Design or related field.",
+        "experiences": "3+ years of experience in graphic design.",
+        "contact_information": {
+            "phone": "999-555-1234",
+            "email": "hr@lmncorporation.com"
+        }
+    }
+]
