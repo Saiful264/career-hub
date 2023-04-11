@@ -3,6 +3,7 @@ import Header from "./Header";
 import proPic from '../assets/All Images/P3OLGJ1 copy 1.png'
 import CategoryList from "./CategoryList";
 import FeaturedJobs from "./FeaturedJobs";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -15,11 +16,13 @@ const Home = () => {
           <p className="text-gray-500 text-lg w-3/4 py-8">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
           <button className="btn-primary">Get Started</button>
         </div>
-          <img className="w-2/1 lg:w-2/5 object-fill" src={proPic} alt="" />
+          <img className="w-2/1 lg:w-2/5 object-fill pr-8" src={proPic} alt="" />
       </section>
 
       <CategoryList/>
       <FeaturedJobs/>
+
+      <Footer/>
     </>
   );
 };

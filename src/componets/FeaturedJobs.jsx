@@ -80,7 +80,7 @@ const FeaturedJobs = () => {
             </div>
         </div>
       </div>
-      <button className="btn-primary">See All Jobs</button>
+      <button className="btn-primary mt-10">See All Jobs</button>
     </div>
   );
 };
