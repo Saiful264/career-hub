@@ -4,13 +4,13 @@ import cPic from "../assets/All Images/google-1-1 1.png";
 const Applied = () => {
   return (
     <div>
-      <div className="py-32 text-center bg-purple-100">
-        <h1 className="text-3xl font-extrabold text-gray-800">Job Details</h1>
-      </div>
+      <div className="py-32 text-center bg-slate-100">
+        <h1 className="text-3xl font-extrabold text-gray-800">Applied Jobs</h1>
+      </div> 
 
       <div className="flex border-2 mx-40 rounded-md p-5 mt-32">
         <div className="m-auto">
-          <img className="w-full " src={cPic} alt="" />
+          <img className="w-full " src={cPic} alt="" />  
         </div>
         <div className="flex justify-between items-center w-full p-8">
           <div>

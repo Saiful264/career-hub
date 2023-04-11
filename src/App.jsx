@@ -4,13 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './componets/Home'
 import Header from './componets/Header'
+import Footer from './componets/Footer'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
-    <div className="App">
-      <Home></Home>
-    </div>
+    <>
+      <Header/>
+      <div className='md:min-h-[calc(100vh-641px)]'>
+      <Outlet/>
+      </div>
+      <Footer/>
+    </>
   )
 }
   

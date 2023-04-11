@@ -3,7 +3,7 @@ import cPic from "../assets/All Images/google-1-1 1.png"
 
 const FeaturedJobs = () => {
   return (
-    <div className="text-center">
+    <div className="text-center pb-8">
       <div className="text-center pt-32 pb-8">
         <h1 className="font-semibold text-5xl text-gray-900">
         Featured Jobs
