@@ -1,5 +1,4 @@
-{
-    "categories": [
+[
       {
         "_id": "6433b02e0fc3a91d52382c71",
         "logo": "https://example.com/technology_logo.png",
@@ -25,11 +24,6 @@
         "jobs_available": 100
       }
     ]
-  }
-  
-//   "_id": "6433b02e0fc3a91d52382c71",
-//   "_id": "6433b02e3e52b885b7d36066",
-//   "_id": "6433b02e86d468b1367a6189",
 
 
   
