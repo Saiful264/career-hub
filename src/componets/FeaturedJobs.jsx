@@ -1,7 +1,19 @@
-import React from "react";
-import cPic from "../assets/All Images/google-1-1 1.png"
+import React, { useContext, useEffect, useState } from "react";
+import Jobs from "./jobs";
 
 const FeaturedJobs = () => {
+  const [jobs , setJobs] = useState([]);
+
+  useEffect(()=> {
+    const dataLoader = async() =>{
+      const res = await fetch("FeaturedJobs.json");
+      const data = await res.json();
+      setJobs(data);
+    }
+    dataLoader();
+
+  }, [])
+
   return (
     <div className="text-center pb-8">
       <div className="text-center pt-32 pb-8">
@@ -15,70 +27,15 @@ const FeaturedJobs = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-6 px-32 text-left">
-        <div className="border-2 rounded-md p-10">
-            <img src={cPic} alt="" />
-            <div className="pt-8">
-            <h1 className="text-2xl font-extrabold text-gray-600">Technical Database Engineer</h1>
-            <p className="text-xl font-semibold text-gray-400">Google LLC</p>
-            <div className="flex gap-2 pt-4">
-                <p className="btn-secoundry">Remote</p>
-                <p className="btn-secoundry">Full Time</p>
-            </div>
-            <div className="flex gap-6 pt-4 pb-6">
-                <p className="text-lg font-semibold text-gray-600">Dhaka, Bangladesh</p>
-                <p className="text-lg font-semibold text-gray-600">Salary : 100K - 150K</p>
-            </div>
-            <button className="btn-primary">View Details</button>
-            </div>
-        </div>
-        <div className="border-2 rounded-md p-10">
-            <img src={cPic} alt="" />
-            <div className="pt-8">
-            <h1 className="text-2xl font-extrabold text-gray-600">Technical Database Engineer</h1>
-            <p className="text-xl font-semibold text-gray-400">Google LLC</p>
-            <div className="flex gap-2 pt-4">
-                <p className="btn-secoundry">Remote</p>
-                <p className="btn-secoundry">Full Time</p>
-            </div>
-            <div className="flex gap-6 pt-4 pb-6">
-                <p className="text-lg font-semibold text-gray-600">Dhaka, Bangladesh</p>
-                <p className="text-lg font-semibold text-gray-600">Salary : 100K - 150K</p>
-            </div>
-            <button className="btn-primary">View Details</button>
-            </div>
-        </div>
-        <div className="border-2 rounded-md p-10">
-            <img src={cPic} alt="" />
-            <div className="pt-8">
-            <h1 className="text-2xl font-extrabold text-gray-600">Technical Database Engineer</h1>
-            <p className="text-xl font-semibold text-gray-400">Google LLC</p>
-            <div className="flex gap-2 pt-4">
-                <p className="btn-secoundry">Remote</p>
-                <p className="btn-secoundry">Full Time</p>
-            </div>
-            <div className="flex gap-6 pt-4 pb-6">
-                <p className="text-lg font-semibold text-gray-600">Dhaka, Bangladesh</p>
-                <p className="text-lg font-semibold text-gray-600">Salary : 100K - 150K</p>
-            </div>
-            <button className="btn-primary">View Details</button>
-            </div>
-        </div>
-        <div className="border-2 rounded-md p-10">
-            <img src={cPic} alt="" />
-            <div className="pt-8">
-            <h1 className="text-2xl font-extrabold text-gray-600">Technical Database Engineer</h1>
-            <p className="text-xl font-semibold text-gray-400">Google LLC</p>
-            <div className="flex gap-2 pt-4">
-                <p className="btn-secoundry">Remote</p>
-                <p className="btn-secoundry">Full Time</p>
-            </div>
-            <div className="flex gap-6 pt-4 pb-6">
-                <p className="text-lg font-semibold text-gray-600">Dhaka, Bangladesh</p>
-                <p className="text-lg font-semibold text-gray-600">Salary : 100K - 150K</p>
-            </div>
-            <button className="btn-primary">View Details</button>
-            </div>
-        </div>
+
+    {
+      jobs.map((job) => 
+
+      <Jobs key={job.id}
+      job = {job}
+      /> 
+      )
+    }
       </div>
       <button className="btn-primary mt-10">See All Jobs</button>
     </div>

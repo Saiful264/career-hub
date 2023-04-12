@@ -9,12 +9,14 @@ import ErrorPage from "./componets/ErrorPage";
 import Home from "./componets/Home";
 import Blog from "./componets/Blog";
 import Statistics from "./componets/Statistics";
+import { fetchTheData } from "./loader/getTheDataForm";
 
 const route = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage/>,
+    loader: fetchTheData,
     children: [
       {
         path: "/",
@@ -24,6 +26,11 @@ const route = createBrowserRouter([
       {
         path: "/applied",
         element: <Applied/>
+      },
+      {
+        path: "/job/:id",
+        element: <Details/>,
+        loader: ({params})=> fetch(`FeaturedJobs.json/${params.id}`)
       },
       {
         path: "/blog",

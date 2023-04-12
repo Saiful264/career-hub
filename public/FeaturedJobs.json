@@ -12,10 +12,8 @@
         "job_responsibility": "Design and develop software solutions to meet customer needs. Collaborate with cross-functional teams to identify and solve complex problems.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
         "experiences": "5+ years of experience in software development.",
-        "contact_information": {
-            "phone": "123-456-7890",
-            "email": "hr@abccorporation.com"
-        }
+        "phone": "123-456-7890",
+        "email": "hr@abccorporation.com"
     },
     {
         "id": 2,
@@ -30,10 +28,8 @@
         "job_responsibility": "Develop and implement marketing strategies to increase brand awareness and drive sales. Collaborate with sales and product teams to ensure consistency in messaging.",
         "educational_requirements": "Bachelor's or Master's degree in Marketing or related field.",
         "experiences": "7+ years of experience in marketing.",
-        "contact_information": {
-            "phone": "555-123-4567",
-            "email": "hr@xyzcorporation.com"
-        }
+        "phone": "555-123-4567",
+        "email": "hr@xyzcorporation.com"
     },
     {
         "id": 3,
@@ -48,10 +44,8 @@
         "job_responsibility": "Design and produce visual content for print and digital media. Collaborate with marketing and product teams to ensure brand consistency.",
         "educational_requirements": "Bachelor's or Master's degree in Graphic Design or related field.",
         "experiences": "3+ years of experience in graphic design.",
-        "contact_information": {
-            "phone": "999-555-1234",
-            "email": "hr@lmncorporation.com"
-        }
+        "phone": "999-555-1234",
+        "email": "hr@lmncorporation.com"
     },
     {
         "id": 5,
@@ -66,12 +60,9 @@
         "job_responsibility": "- Create wireframes and prototypes\n- Design user interfaces and experiences\n- Conduct user research and usability testing\n- Collaborate with cross-functional teams\n- Stay up-to-date with industry trends",
         "educational_requirements": "Bachelor's degree in Design or related field",
         "experiences": "3+ years of experience in UX design",
-        "contact_information": {
-          "phone": "555-5678",
-          "email": "jobs@xyzagency.com"
-        }
+        "phone": "555-5678",
+        "email": "jobs@xyzagency.com"
     },
-
     {
         "id": 6,
         "company_logo": "https://i.ibb.co/8P88r4K/netflix-4-1.png",
@@ -85,10 +76,8 @@
         "job_responsibility": "Responsibilities include defining product strategy, developing product roadmaps, and collaborating with cross-functional teams.",
         "educational_requirements": "Bachelor's degree in Business, Engineering or related field",
         "experiences": "7+ years of professional product management experience",
-        "contact_information": {
-          "phone": "123-456-7890",
-          "email": "jobs@123company.com"
-        }
+        "phone": "123-456-7890",
+        "email": "jobs@123company.com"
     },
     {
         "id": "job007",
@@ -103,9 +92,7 @@
         "job_responsibility": "Analyze and interpret complex data sets.",
         "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field.",
         "experiences": "Minimum 2 years of experience in data analysis.",
-        "contact_information": {
-            "phone": "555-123-4567",
-            "email": "jobs@xyzcorp.com"
-        }
+        "phone": "555-123-4567",
+        "email": "jobs@xyzcorp.com"
     }
 ]
