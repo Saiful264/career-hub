@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "company_logo": "https://example.com/company_logo.png",
+        "company_logo": "https://i.ibb.co/9WSJd96/tesla-9-1.png",
         "job_title": "Software Engineer",
         "company_name": "ABC Corporation",
         "remote_or_onsite": "Remote",
@@ -19,7 +19,7 @@
     },
     {
         "id": 2,
-        "company_logo": "https://example.com/company_logo.png",
+        "company_logo": "https://i.ibb.co/vjfNfZk/Career-Hub.png",
         "job_title": "Marketing Manager",
         "company_name": "XYZ Corporation",
         "remote_or_onsite": "Onsite",
@@ -37,7 +37,7 @@
     },
     {
         "id": 3,
-        "company_logo": "https://example.com/company_logo.png",
+        "company_logo": "https://i.ibb.co/WfwFBm4/google-1-1-1.png",
         "job_title": "Graphic Designer",
         "company_name": "LMN Corporation",
         "remote_or_onsite": "Remote",
@@ -51,6 +51,61 @@
         "contact_information": {
             "phone": "999-555-1234",
             "email": "hr@lmncorporation.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://i.ibb.co/sjLLYbJ/Group-10021.png",
+        "job_title": "UX Designer",
+        "company_name": "XYZ Agency",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are looking for a talented UX Designer to join our team. The ideal candidate will have experience in designing user interfaces for web and mobile applications.",
+        "job_responsibility": "- Create wireframes and prototypes\n- Design user interfaces and experiences\n- Conduct user research and usability testing\n- Collaborate with cross-functional teams\n- Stay up-to-date with industry trends",
+        "educational_requirements": "Bachelor's degree in Design or related field",
+        "experiences": "3+ years of experience in UX design",
+        "contact_information": {
+          "phone": "555-5678",
+          "email": "jobs@xyzagency.com"
+        }
+    },
+
+    {
+        "id": 6,
+        "company_logo": "https://i.ibb.co/8P88r4K/netflix-4-1.png",
+        "job_title": "Product Manager",
+        "company_name": "123 Company",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "120,000 - 140,000 USD per year",
+        "job_description": "We are seeking an experienced product manager to lead the development of our products. The ideal candidate will have a strong background in product management and be comfortable working with cross-functional teams.",
+        "job_responsibility": "Responsibilities include defining product strategy, developing product roadmaps, and collaborating with cross-functional teams.",
+        "educational_requirements": "Bachelor's degree in Business, Engineering or related field",
+        "experiences": "7+ years of professional product management experience",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@123company.com"
+        }
+    },
+    {
+        "id": "job007",
+        "company_logo": "https://i.ibb.co/sjLLYbJ/Group-10021.png",
+        "job_title": "Data Analyst",
+        "company_name": "XYZ Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$60,000 - $80,000",
+        "job_description": "We are seeking a highly motivated Data Analyst to join our team.",
+        "job_responsibility": "Analyze and interpret complex data sets.",
+        "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field.",
+        "experiences": "Minimum 2 years of experience in data analysis.",
+        "contact_information": {
+            "phone": "555-123-4567",
+            "email": "jobs@xyzcorp.com"
         }
     }
 ]

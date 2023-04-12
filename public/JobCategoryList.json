@@ -1,29 +1,26 @@
 [
-      {
-        "_id": "6433b02e0fc3a91d52382c71",
-        "logo": "https://example.com/technology_logo.png",
-        "name": "Technology",
-        "jobs_available": 500
-      },
-      {
-        "_id": "6433b02e7fc113a0f289235f",
-        "logo": "https://example.com/healthcare_logo.png",
-        "name": "Healthcare",
-        "jobs_available": 300
-      },
-      {
-        "_id": "6433b02ecce196594ade12fc",
-        "logo": "https://example.com/marketing_logo.png",
-        "name": "Marketing",
-        "jobs_available": 200
-      },
-      {
-        "_id": "6433b02e896ba945989b3c64",
-        "logo": "https://example.com/education_logo.png",
-        "name": "Education",
-        "jobs_available": 100
-      }
-    ]
-
-
-  
+  {
+    "_id": "6433b02e0fc3a91d52382c71",
+    "logo": "https://i.ibb.co/cJWbZGJ/accounts-1.png",
+    "name": "Account & Finance",
+    "jobs_available": 500
+  },
+  {
+    "_id": "6433b02e7fc113a0f289235f",
+    "logo": "https://i.ibb.co/2YySxJP/business-1.png",
+    "name": "Creative Design",
+    "jobs_available": 300
+  },
+  {
+    "_id": "6433b02ecce196594ade12fc",
+    "logo": "https://i.ibb.co/7WDqX6m/social-media-1.png",
+    "name": "Marketing & Sales",
+    "jobs_available": 200
+  },
+  {
+    "_id": "6433b02e896ba945989b3c64",
+    "logo": "https://i.ibb.co/XCqTyDq/chip-1.png",
+    "name": "Engineering Job",
+    "jobs_available": 100
+  }
+]
