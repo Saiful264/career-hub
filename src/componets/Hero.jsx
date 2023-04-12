@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-7xl font-bold leading-tight">
           One Step <br /> Closer To Your{" "}
         </h1>
-        <h1 class="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-7xl font-black">
+        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-7xl font-black">
           Dream Job
         </h1>
         <p className="text-gray-500 text-lg w-3/4 py-8">
