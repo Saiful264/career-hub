@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-// import { getContact } from "../contacts";
-
-// export async function loader({ params }) {
-//   const contact = await getContact(params.contactId);
-//   return { contact };
-// }
+import { addToDb } from "../utils/fakeDB";
 
 const Details = () => {
   const getId = useParams();
@@ -16,6 +11,11 @@ const Details = () => {
     const findData = datas.find((data) => data.id == getId.id)
     setDetail(findData);
   }, [])
+
+  const handleAddToCart = id => {
+    addToDb(id);
+  }
+
 
   const {job_description, job_responsibility, educational_requirements,experiences,salary,job_title,location,phone,email, id} = detail;
 
@@ -89,7 +89,7 @@ const Details = () => {
               {location}
             </p>
           </div>
-          <button className="btn-primary w-full mt-6">Apply Now</button>
+          <button onClick={()=> handleAddToCart(id)} className="btn-primary w-full mt-6">Apply Now</button>
         </div>
       </section>
     </div>

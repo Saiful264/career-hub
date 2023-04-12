@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import cPic from "../assets/All Images/google-1-1 1.png";
+import { useLoaderData } from "react-router-dom";
+import { getStoredCart } from "../utils/fakeDB";
 
 const Applied = () => {
+// const datas = useLoaderData();
+// const storedCart = getStoredCart();
+// // console.log(storedCart.);
+
+// const [detail, setDetail] = useState({});
+// useEffect(()=> {
+//   const findData = datas.map((data) => console.log(data))
+//   // setDetail(findData);
+// }, [])
+
+
   return (
     <div>
       <div className="py-32 text-center bg-slate-100">
