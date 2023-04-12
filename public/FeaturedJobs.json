@@ -78,21 +78,5 @@
         "experiences": "7+ years of professional product management experience",
         "phone": "123-456-7890",
         "email": "jobs@123company.com"
-    },
-    {
-        "id": "job007",
-        "company_logo": "https://i.ibb.co/sjLLYbJ/Group-10021.png",
-        "job_title": "Data Analyst",
-        "company_name": "XYZ Corp.",
-        "remote_or_onsite": "Onsite",
-        "location": "New York City",
-        "fulltime_or_parttime": "Full-time",
-        "salary": "$60,000 - $80,000",
-        "job_description": "We are seeking a highly motivated Data Analyst to join our team.",
-        "job_responsibility": "Analyze and interpret complex data sets.",
-        "educational_requirements": "Bachelor's degree in Statistics, Mathematics, or related field.",
-        "experiences": "Minimum 2 years of experience in data analysis.",
-        "phone": "555-123-4567",
-        "email": "jobs@xyzcorp.com"
     }
 ]
